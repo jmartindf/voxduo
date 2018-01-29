@@ -80,6 +80,52 @@ PODCAST_FEED_OWNER_NAME = 'Vox Duo'
 PODCAST_FEED_OWNER_EMAIL = 'duo@voxduo.com'
 PODCAST_FEED_CATEGORY = ['Society & Culture', 'Personal Journals']
 
+# Feed for each podcast
+PODCASTS = {
+	'goldenage': {
+		'PODCAST_FEED_PATH': u'goldenage.rss',
+		'PODCAST_FEED_TITLE': u'The Golden Age',
+		'PODCAST_FEED_EXPLICIT': u'No',
+		'PODCAST_FEED_LANGUAGE': u'en-us',
+		'PODCAST_FEED_COPYRIGHT': u'Copyright 2017-{0} {1}'.format(
+		    datetime.now().year, AUTHOR),
+		'PODCAST_FEED_SUBTITLE': u"We've never had more high quality ways to be entertained.",
+		'PODCAST_FEED_AUTHOR': u'Vox Duo',
+		'PODCAST_FEED_SUMMARY': u'',
+		'PODCAST_FEED_IMAGE': 'https://beta.voxduo.com/images/Golden%20Age%20Logo.jpg',
+		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
+		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
+	},
+	'reacquainted': {
+		'PODCAST_FEED_PATH': u'reacquainted.rss',
+		'PODCAST_FEED_TITLE': u'Reacquainted',
+		'PODCAST_FEED_EXPLICIT': u'No',
+		'PODCAST_FEED_LANGUAGE': u'en-us',
+		'PODCAST_FEED_COPYRIGHT': u'Copyright 2017-{0} {1}'.format(
+		    datetime.now().year, AUTHOR),
+		'PODCAST_FEED_SUBTITLE': u'What in the world happened to you?',
+		'PODCAST_FEED_AUTHOR': u'Vox Duo',
+		'PODCAST_FEED_SUMMARY': u'',
+		'PODCAST_FEED_IMAGE': 'https://beta.voxduo.com/images/Reacquainted%20Logo.jpg',
+		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
+		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
+	},
+	'entertained': {
+		'PODCAST_FEED_PATH': u'entertained.rss',
+		'PODCAST_FEED_TITLE': u'Are You Not Entertained?',
+		'PODCAST_FEED_EXPLICIT': u'No',
+		'PODCAST_FEED_LANGUAGE': u'en-us',
+		'PODCAST_FEED_COPYRIGHT': u'Copyright 2017-{0} {1}'.format(
+		    datetime.now().year, AUTHOR),
+		'PODCAST_FEED_SUBTITLE': u'As film studios battle for our ever-decreasing attention spans, Adam and Joe watch their efforts and ask each other the titular question.',
+		'PODCAST_FEED_AUTHOR': u'Vox Duo',
+		'PODCAST_FEED_SUMMARY': u'',
+		'PODCAST_FEED_IMAGE': 'https://beta.voxduo.com/images/Entertained%20Logo.jpg',
+		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
+		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
+	}
+}
+
 def duration_filter(value):
 	if value.count(":") > 0:
 		pieces = value.split(":")
