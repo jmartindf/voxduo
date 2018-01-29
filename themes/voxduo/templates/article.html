@@ -1,4 +1,7 @@
 {% extends "base.html" %}
+{% block title %}
+{{ article.show }} {{ article.title }} (from {{ SITENAME }})
+{% endblock title %}
 {% block bodytag %}
 <body class="container-sidebar">
 {% endblock bodytag %}
@@ -27,6 +30,12 @@
 
 		<div class="episode-description">
 		{{ article.content }}
+			<div class="player">
+				<audio controls="controls" id="podcast_player" autoplay="false" loop="false" preload="metadata" src="{{ article.podcast }}" type="audo/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+				<p><a href="{{ article.podcast }}">Download the MP3</a></p>
+			</div>
 		</div>
 	</section>
 </main>
