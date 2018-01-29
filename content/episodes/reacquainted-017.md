@@ -1,4 +1,4 @@
-Title: Reacquainted 17: Absolutely Maddening
+Title: 17: Absolutely Maddening
 Slug: 17
 Date: 2017-09-25
 Author: Vox Duo

@@ -1,4 +1,4 @@
-Title: Reacquainted 16: A Very Old Government
+Title: 16: A Very Old Government
 Slug: 16
 Date: 2017-09-11
 Author: Vox Duo

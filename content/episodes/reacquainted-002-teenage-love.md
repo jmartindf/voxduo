@@ -6,8 +6,13 @@ Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted002.mp3
 Length: 74989742
 Duration: 1:43:42
+Episode: 2
+Show: Reacquainted
+EpTitle: The Wood Chipper That Is Teenage Love
+TweetText: We reminisce about first jobs & loves, and our homeschool lives.
+Description: Adam and Joe go back to the beginning, reminiscing about first jobs, first loves, and whether being homeschooled worked for them.
 
-Adam and Joe were childhood friends, but life pulled them apart. 20 years later, they're very different people, and Reacquainted is asking both of them the question we all want to ask old classmates: What in the world *happened* to you?
+Adam and Joe go back to the beginning, reminiscing about first jobs, first loves, and whether being homeschooled worked for them.
 
 * Joe's Homeschool Life
 * Adam Sees the Real World

@@ -1,4 +1,4 @@
-Title: Reacquainted 10: My Butt On That Throne
+Title: 10: My Butt On That Throne
 Slug: 10
 Date: 2017-07-03
 Author: Vox Duo

@@ -1,4 +1,4 @@
-Title: Reacquainted 7: Break Out of the Technical
+Title: 7: Break Out of the Technical
 Slug: 7
 Date: 2017-05-22
 Author: Vox Duo

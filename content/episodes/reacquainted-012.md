@@ -1,4 +1,4 @@
-Title: Reacquainted 12: How Many People Are You Willing to Have Die?
+Title: 12: How Many People Are You Willing to Have Die?
 Slug: 12
 Date: 2017-07-29
 Author: Vox Duo

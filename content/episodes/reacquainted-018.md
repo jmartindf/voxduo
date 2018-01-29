@@ -1,4 +1,4 @@
-Title: Reacquainted 18: International Slideshow
+Title: 18: International Slideshow
 Slug: 18
 Date: 2017-10-09
 Author: Vox Duo

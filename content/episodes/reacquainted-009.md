@@ -1,4 +1,4 @@
-Title: Reacquainted 9: When We're Not Being Responsible
+Title: 9: When We're Not Being Responsible
 Slug: 9
 Date: 2017-06-18
 Author: Vox Duo

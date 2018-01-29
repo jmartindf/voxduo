@@ -1,4 +1,4 @@
-Title: Reacquainted 6: Intertwined Adventures
+Title: 6: Intertwined Adventures
 Slug: 6
 Date: 2017-05-02
 Author: Vox Duo

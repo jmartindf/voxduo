@@ -1,4 +1,4 @@
-Title: Reacquainted 5: The Parameters of Our Relationship
+Title: 5: The Parameters of Our Relationship
 Slug: 5
 Date: 2017-05-02
 Author: Vox Duo

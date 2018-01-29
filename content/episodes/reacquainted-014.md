@@ -1,4 +1,4 @@
-Title: Reacquainted 14: How Wide To Set My Beam
+Title: 14: How Wide To Set My Beam
 Slug: 14
 Date: 2017-08-14
 Author: Vox Duo

@@ -1,4 +1,4 @@
-Title: Reacquainted 8: All of My Past Is Prologue
+Title: 8: All of My Past Is Prologue
 Slug: 8
 Date: 2017-06-04
 Author: Vox Duo

@@ -1,4 +1,4 @@
-Title: Reacquainted 4: Like a Jenga Game
+Title: 4: Like a Jenga Game
 Slug: 4
 Date: 2017-04-09
 Author: Vox Duo
@@ -6,6 +6,11 @@ Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted004.mp3
 Length: 78644528
 Duration: 1:46:28
+Episode: 4
+Show: Reacquainted
+EpTitle: Like a Jenga Game
+TweetText: It's Joe's chance to ask Adam why he’s an atheist. There's a lot to be said...
+Description: It’s Joe’s turn to quiz Adam on how his religious views have changed in the last 20 years - and since Adam’s an atheist now, there’s lots to be said.
 
 Adam's journey to deconversion started when he earnestly sought God.
 

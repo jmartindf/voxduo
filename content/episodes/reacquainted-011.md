@@ -1,4 +1,4 @@
-Title: Reacquainted 11: Topical Race
+Title: 11: Topical Race
 Slug: 11
 Date: 2017-07-17
 Author: Vox Duo

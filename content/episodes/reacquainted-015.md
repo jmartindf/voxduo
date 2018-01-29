@@ -1,4 +1,4 @@
-Title: Reacquainted 15: A Living Document
+Title: 15: A Living Document
 Slug: 15
 Date: 2017-08-28
 Author: Vox Duo

@@ -1,4 +1,4 @@
-Title: Reacquainted 1: We've Grown Apart
+Title: 1: We've Grown Apart
 Slug: 1
 Date: 2017-01-22
 Author: Vox Duo
@@ -6,10 +6,13 @@ Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted001.mp3
 Length: 29147357
 Duration: 40:29
+Episode: 1
+Show: Reacquainted
+Description: Twenty years ago, Adam and Joe were homeschooled children in Norfolk, Virginia. Life’s taken them in two different directions since then.
+TweetText: 20 years ago, we were homeschooled friends. Life's since taken us in 2 different directions.
+EpTitle: We've Grown Apart
 
-Adam and Joe were childhood friends, but life pulled them apart. 20 years later,
-they're very different people, and Reacquainted is asking both of them the
-question we all want to ask old classmates: What in the world *happened* to you?
+Twenty years ago, Adam and Joe were homeschooled children in Norfolk, Virginia. Life’s taken them in two different directions since then.
 
 * Who We Were
 * Who We Are - Joe (10:52)

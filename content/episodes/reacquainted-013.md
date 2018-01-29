@@ -1,4 +1,4 @@
-Title: Reacquainted 13: To See People Prosper
+Title: 13: To See People Prosper
 Slug: 13
 Date: 2017-07-31
 Author: Vox Duo
