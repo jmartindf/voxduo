@@ -5,7 +5,9 @@ from datetime import datetime
 
 AUTHOR = 'Vox Duo'
 SITENAME = 'Vox Duo Podcasts'
-SITEURL = 'https://beta.voxduo.com'
+SITE_DESCRIPTION = 'is where Adam &amp; Joe talk about what interests them, for the enjoyment of an international audience.'
+SITEURL = 'http://ego.home.thosemartins.family/~jmartin/voxpel'
+TWITTER_URL = 'https://twitter.com/FromVoxDuo'
 
 PATH = 'content'
 STATIC_PATHS = [
@@ -21,7 +23,7 @@ PLUGINS = [
     'pelican-podcast-feed'
 ]
 
-THEME = 'themes/notmyidea'
+THEME = 'themes/voxduo'
 
 TIMEZONE = 'America/Chicago'
 
@@ -53,8 +55,15 @@ ARTICLE_SAVE_AS = '{category}/{slug}'
 CATEGORY_URL = '{slug}/archive.html'
 CATEGORY_SAVE_AS = '{slug}/archive.html'
 
+# Disable unneeded pages
+TAGS_SAVE_AS = ''
+TAG_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
+
+
 # Category Slug Fixes
-CATEGORY_SUBSTITUTIONS = (('Are You Not Entertained?', 'entertained', True),)
+CATEGORY_SUBSTITUTIONS = (('The Golden Age', 'goldenage', True),)
 
 # iTunes plugin settings
 PODCAST_FEED_PATH = u'podcast.rss'
@@ -70,3 +79,17 @@ PODCAST_FEED_IMAGE = 'https://beta.voxduo.com/images/Reacquainted%20Logo.jpg'
 PODCAST_FEED_OWNER_NAME = 'Vox Duo'
 PODCAST_FEED_OWNER_EMAIL = 'duo@voxduo.com'
 PODCAST_FEED_CATEGORY = ['Society & Culture', 'Personal Journals']
+
+def duration_filter(value):
+	if value.count(":") > 0:
+		pieces = value.split(":")
+		if len(pieces) == 3:
+			return str((int(pieces[0])*60)+int(pieces[1]))
+		elif len(pieces) == 2:
+			return pieces[0]
+		else:
+			return "0"
+	else:
+		return "0"
+
+JINJA_FILTERS = {'enjoyment': duration_filter}

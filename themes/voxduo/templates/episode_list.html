@@ -1,0 +1,38 @@
+<main id="content">
+	{% for article in articles_page.object_list %}
+	<section class="podcast-episode-small">
+		{% if article.category == 'Are You Not Entertained?'  %}
+			{% set LOGOSTEM = 'Entertained' %}
+		{% elif article.category == 'Reacquainted' %}
+			{% set LOGOSTEM = 'Reacquainted' %}
+		{% elif article.category == 'The Golden Age' %}
+			{% set LOGOSTEM = 'Golden Age' %}
+		{% else %}
+			{% set LOGOSTEM = 'Vox Duo Generic Show Art' %}
+		{% endif %}
+		<div class="podcast-artwork-small"><img src="{{ SITEURL }}/theme/media/{{ LOGOSTEM }} Logo preview.jpg" alt="Podcast Artwork for {{ article.category }}" class="podcast-preview-small" />
+		</div>
+
+		<div class="episode-meta">
+			{% if not category %}
+			<span class="episode-podcast"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></span>
+			{% endif %}
+			<span class="episode-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title|striptags|escape }}</a></span>
+			<span class="reallymeta"><date class="episode-date">{{ article.date.strftime("%B %d, %Y") }}</date> &rarr; {{ article.duration|enjoyment }} minutes</span>
+		</div>
+
+		<div class="episode-description">
+		{% if article.description is defined %}
+			<p>{{ article.description }}</p>
+		{% else %}
+			{{ article.summary }}
+		{% endif %}
+		</div>
+	</section>
+
+<hr class="style-two" />
+	{% endfor %}
+
+{% include 'pagination.html' %}
+
+</main>
