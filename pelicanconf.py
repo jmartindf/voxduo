@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from datetime import datetime
 
 AUTHOR = 'Vox Duo'
-SITENAME = 'Vox Duo Podcasts'
+SITENAME = 'Vox Duo'
 SITE_DESCRIPTION = 'is where Adam &amp; Joe talk about what interests them, for the enjoyment of an international audience.'
 SITEURL = 'http://ego.home.thosemartins.family/~jmartin/voxpel'
 TWITTER_URL = 'https://twitter.com/FromVoxDuo'

@@ -76,6 +76,9 @@ aside > div > p {
   grid-template-areas: "podcast-artwork episode-meta" "episode-description episode-description"; }
 
 .podcast-episode-small {
+  padding: 3rem 0 2rem 0; }
+
+.podcast-episode-small {
   grid-template-columns: 13rem 1fr;
   grid-gap: 0.25rem 5rem; }
 
@@ -97,9 +100,6 @@ aside > div > p {
   font-weight: bold;
   font-size: 120%; }
 
-.episode-description {
-  padding-bottom: 5rem; }
-
 .podcast-preview {
   height: 25rem;
   width: 25rem; }
@@ -115,6 +115,14 @@ hr.style-two {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+
+.overcast-button, .rss-button {
+  height: 60px;
+  width: 166px; }
+
+.apple-podcasts-button {
+  width: 166px;
+  height: 42px; }
 
 /*
   Base font sizes based on Optimized Typography for 70 CPL in a 860px-wide Setting
@@ -150,15 +158,7 @@ hr.style-two {
   .smalltext {
     /* 22 pixels */
     font-size: 1.7rem;
-    line-height: 1.7rem; }
-
-  .overcast-button, .rss-button {
-    height: 60px;
-    width: 166px; }
-
-  .apple-podcasts-button {
-    width: 166px;
-    height: 42px; } }
+    line-height: 1.7rem; } }
 /*
   Base font sizes based on Optimized Typography for 70 CPL in a 600px-wide Setting
   Golden Ratio Typography Calculator
@@ -170,33 +170,49 @@ hr.style-two {
 
   body {
     /* Primary text: 19px; */
-    font-size: 1.9rem;
-    line-height: 2.9rem; }
+    font-size: 1.3rem;
+    line-height: 2.7rem; }
 
   header p {
     padding: 0rem;
-    margin: 0.725rem 0 0 0; }
+    margin: 0.675rem 0 0 0; }
 
   h1 {
     /* 50 pixels */
-    font-size: 5rem;
-    line-height: 5.8rem; }
+    font-size: 3.4rem;
+    line-height: 5.4rem; }
 
   h2 {
     /* 45 pixels */
-    font-size: 3.1rem;
-    line-height: 4.35rem;
-    padding: 0 0 1.45rem 0; }
+    font-size: 2.1rem;
+    line-height: 4.05rem;
+    padding: 0 0 1.35rem 0; }
 
   h3, h4, h5, h6 {
     /* 36 pixels */
-    font-size: 2.4rem;
-    line-height: 2.9rem; }
+    font-size: 1.7rem;
+    line-height: 2.7rem; }
 
   .smalltext {
     /* 22 pixels */
-    font-size: 1.5rem;
-    line-height: 1.5rem; } }
+    font-size: 1rem;
+    line-height: 1rem; }
+
+  .container-sidebar {
+    display: grid;
+    grid-gap: 10rem 5rem;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "header header" "main sidebar" "footer footer";
+    max-width: 75rem;
+    margin: 0 auto 0 auto; }
+
+  .overcast-button, .rss-button {
+    height: 30px;
+    width: 83px; }
+
+  .apple-podcasts-button {
+    height: 21px;
+    width: 83px; } }
 /*
   Base font sizes based on Optimized Typography for 14px Font in 320px-wide Setting
   Golden Ratio Typography Calculator
@@ -205,14 +221,14 @@ hr.style-two {
 @media all and (max-width: 599px) and (min-width: 320px) {
   body {
     /* Primary text: 14px; */
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 2.1rem; }
 
   .container {
     grid-gap: 0.5rem 0.5rem; }
 
   header {
-    margin: 1rem auto 5rem auto;
+    margin: 1rem auto 2rem auto;
     grid-template-columns: 12rem 1fr;
     grid-gap: 0.5rem 2rem;
     height: 12rem; }
@@ -223,24 +239,24 @@ hr.style-two {
 
   h1 {
     /* 37 pixels */
-    font-size: 3.7rem;
+    font-size: 3.4rem;
     line-height: 4.2rem; }
 
   h2 {
     /* 23 pixels */
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     line-height: 3.15rem;
     padding: 0 0 1.05rem 0; }
 
   h3, h4, h5, h6 {
     /* 18 pixels */
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 2.1rem; }
 
   .smalltext {
     /* 22 pixels */
-    font-size: 1.1rem;
-    line-height: 1.1rem; }
+    font-size: 1rem;
+    line-height: 1rem; }
 
   .podcast-preview {
     height: 13rem;
@@ -258,6 +274,21 @@ hr.style-two {
 
   #header-image img {
     height: 115px;
-    width: 115px; } }
+    width: 115px; }
+
+  .container-sidebar {
+    display: grid;
+    grid-gap: 0.5rem 0.5rem;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "header header" "main main" "sidebar sidebar" "footer footer";
+    margin: 0 auto 0 auto; }
+
+  .overcast-button, .rss-button {
+    height: 30px;
+    width: 83px; }
+
+  .apple-podcasts-button {
+    height: 21px;
+    width: 83px; } }
 
 /*# sourceMappingURL=styles.css.map */
