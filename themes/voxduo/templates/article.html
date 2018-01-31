@@ -24,7 +24,7 @@
 
 		<div class="episode-meta">
 			<span class="episode-podcast"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></span>
-			<span class="episode-title">{{ article.title|striptags|escape }}</span>
+			<h3 class="episode-title">{{ article.title|striptags|escape }}</h3>
 			<span class="reallymeta"><date class="episode-date">{{ article.date.strftime("%B %d, %Y") }}</date> &rarr; {{ article.duration|enjoyment }} minutes</span>
 		</div>
 

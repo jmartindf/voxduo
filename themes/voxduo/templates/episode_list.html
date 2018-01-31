@@ -17,7 +17,7 @@
 			{% if not category %}
 			<span class="episode-podcast"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></span>
 			{% endif %}
-			<span class="episode-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title|striptags|escape }}</a></span>
+			<h3 class="episode-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title|striptags|escape }}</a></h3>
 			<span class="reallymeta"><date class="episode-date">{{ article.date.strftime("%B %d, %Y") }}</date> &rarr; {{ article.duration|enjoyment }} minutes</span>
 		</div>
 
