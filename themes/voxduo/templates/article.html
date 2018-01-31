@@ -10,15 +10,6 @@
 
 <main id="content">
 	<section class="podcast-episode-small">
-		{% if article.category.name == 'Are You Not Entertained?' %}
-			{% set LOGOSTEM = 'Entertained' %}
-		{% elif article.category.name == 'Reacquainted' %}
-			{% set LOGOSTEM = 'Reacquainted' %}
-		{% elif article.category.name == 'The Golden Age' %}
-			{% set LOGOSTEM = 'Golden Age' %}
-		{% else %}
-			{% set LOGOSTEM = 'Vox Duo Generic Show Art' %}
-		{% endif %}
 		<div class="podcast-artwork-small"><img src="{{ SITEURL }}/theme/media/{{ LOGOSTEM }} Logo preview.jpg" alt="Podcast Artwork for {{ article.category }}" class="podcast-preview-small" />
 		</div>
 
