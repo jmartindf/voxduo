@@ -1,7 +1,7 @@
 <main id="content">
 	{% for article in articles_page.object_list %}
 	<section class="podcast-episode-small">
-		<div class="podcast-artwork-small"><img src="{{ SITEURL }}/theme/media/{{ LOGOSTEM }} Logo preview.jpg" alt="Podcast Artwork for {{ article.category }}" class="podcast-preview-small" />
+		<div class="podcast-artwork-small"><img src="{{ SITEURL }}/theme/media/{{ article.category.logo }}" alt="Podcast Artwork for {{ article.category }}" class="podcast-preview-small" />
 		</div>
 
 		<div class="episode-meta">

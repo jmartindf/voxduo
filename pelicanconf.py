@@ -20,7 +20,8 @@ PLUGIN_PATHS = ['./plugins', './pelican-plugins', ]
 PLUGINS = [
     'summary',
     'feed_summary',
-    'pelican-podcast-feed'
+    'pelican-podcast-feed',
+    'category_meta'
 ]
 
 THEME = 'themes/voxduo'

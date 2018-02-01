@@ -2,7 +2,6 @@ Title: 4: Star Wars: The Last Jedi
 Slug: 4
 Date: 2017-12-25
 Author: Vox Duo
-Category: The Golden Age
 Podcast: https://files.voxduo.com/goldenage/goldenage004.mp3
 Length: 39313819
 Duration: 1:20:45

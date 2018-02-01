@@ -2,7 +2,6 @@ Title: 0: MacGuffins All the Way Down
 Slug: 0
 Date: 2017-03-02
 Author: Vox Duo
-Category: The Golden Age
 Podcast: https://files.voxduo.com/goldenage/goldenage000.mp3
 Length: 39176879
 Duration: 51:19

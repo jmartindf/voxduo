@@ -2,7 +2,6 @@ Title: 1: Wonder Woman
 Slug: 1
 Date: 2017-06-04
 Author: Vox Duo
-Category: The Golden Age
 Podcast: https://files.voxduo.com/goldenage/goldenage001.mp3
 Length: 50609237
 Duration: 1:7:12

@@ -4,19 +4,13 @@
 		{% if category %}
 		<h2>{{ category }}</h2>
 		{% endif %}
-		{% if podcast == 'Are You Not Entertained?' %}
-			<p>As film studios battle for our ever-decreasing attention spans, Adam and Joe watch their efforts and ask each other the titular question.</p>
-		{% elif podcast == "The Golden Age" %}
-			<p>We've never had more high quality ways to be entertained. From comic book movies to TV shows, from board games to console games, from books to comic books, we're living through a golden age of entertainment.</p>
-			<p>Join Adam &amp; Joe as they discuss their wealth of choices.</p>
-		{% elif podcast == "Reacquainted" %}
-			<p>Adam and Joe were childhood friends, but life pulled them apart. 20 years later, they're very different people.</p>
-			<p>Reacquainted is asking both of them the question we all want to ask old classmates: What in the world <em>happened</em> to you?</p>
+		{% if category.description %}
+		{{ category.description }}
 		{% endif %}
 	</div>
 	<div id="sidebar-subscription">
-		<p><a href="{{ APPLE_URL }}"><img src="{{ SITEURL }}/theme/media/subscribe/Listen_on_Apple_Podcasts.png" alt="Listen on Apple Podcasts." class="apple-podcasts-button" /></a></p>
-		<p><a href="{{ OVERCAST_URL }}"><img src="{{ SITEURL }}/theme/media/subscribe/Get it on Overcast.jpg" alt="Get it on Overcast." class="overcast-button" /></a></p>
-		<p><a href="{{ PODCAST_RSS_URL }}"><img src="{{ SITEURL }}/theme/media/subscribe/Get it on RSS.jpg" alt="Get it on RSS." class="rss-button" /></a></p>
+		<p><a href="{{ category.appleurl }}"><img src="{{ SITEURL }}/theme/media/subscribe/Listen_on_Apple_Podcasts.png" alt="Listen on Apple Podcasts." class="apple-podcasts-button" /></a></p>
+		<p><a href="{{ category.overcasturl }}"><img src="{{ SITEURL }}/theme/media/subscribe/Get it on Overcast.jpg" alt="Get it on Overcast." class="overcast-button" /></a></p>
+		<p><a href="{{ SITEURL }}/{{ category.slug }}.rss"><img src="{{ SITEURL }}/theme/media/subscribe/Get it on RSS.jpg" alt="Get it on RSS." class="rss-button" /></a></p>
 	</div>
 <!-- </aside> -->
