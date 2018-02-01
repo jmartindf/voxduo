@@ -52,8 +52,8 @@ DEFAULT_PAGINATION = 10
 # URLs
 ARTICLE_URL = '{category}/{slug}'
 ARTICLE_SAVE_AS = '{category}/{slug}'
-CATEGORY_URL = '{slug}/archive.html'
-CATEGORY_SAVE_AS = '{slug}/archive.html'
+CATEGORY_URL = '{slug}'
+CATEGORY_SAVE_AS = '{slug}/index.html'
 
 # Disable unneeded pages
 TAGS_SAVE_AS = ''

@@ -1,3 +1,38 @@
+{# Define some useful variables #}
+{% if category %}
+    {% if category.name == "Are You Not Entertained?" %}
+        {% set podcast = "Are You Not Entertained?" %}
+    {% elif category.name == "Reacquainted" %}
+        {% set podcast = "Reacquainted" %}
+    {% elif category.name == "The Golden Age" %}
+        {% set podcast = "The Golden Age" %}
+    {% endif %}
+{% elif article %}
+    {% if article.category == "Are You Not Entertained?" %}
+        {% set podcast = "Are You Not Entertained?" %}
+    {% elif article.category == "Reacquainted" %}
+        {% set podcast = "Reacquainted" %}
+    {% elif article.category == "The Golden Age" %}
+        {% set podcast = "The Golden Age" %}
+    {% endif %}
+{% endif %}
+{% set LOGOSTEM = 'Vox Duo Generic Show Art' %}
+{% if podcast == 'Are You Not Entertained?' %}
+    {% set LOGOSTEM = 'Entertained' %}
+    {% set APPLE_URL = 'https://itunes.apple.com/us/podcast/are-you-not-entertained/id1211555157' %}
+    {% set OVERCAST_URL = 'https://overcast.fm/itunes1211555157/are-you-not-entertained' %}
+    {% set PODCAST_RSS_URL = '{{SITEURL}}/entertained.rss' %}
+{% elif podcast == "The Golden Age" %}
+    {% set LOGOSTEM = 'Golden Age' %}
+    {% set APPLE_URL = 'https://itunes.apple.com/us/podcast/the-golden-age/id1211555157' %}
+    {% set OVERCAST_URL = 'https://overcast.fm/itunes1211555157/the-golden-age' %}
+    {% set PODCAST_RSS_URL = '{{SITEURL}}/goldenage.rss' %}
+{% elif podcast == "Reacquainted" %}
+    {% set LOGOSTEM = 'Reacquainted' %}
+    {% set APPLE_URL = 'https://itunes.apple.com/us/podcast/reacquainted/id1210150524' %}
+    {% set OVERCAST_URL = 'https://overcast.fm/itunes1210150524/reacquainted' %}
+    {% set PODCAST_RSS_URL = '%s/reacquainted.rss' % SITEURL %}
+{% endif %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,46 +65,7 @@
     {% if TAG_FEED_RSS and tag %}
     <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
     {% endif %}
-    
-    {# Define some useful variables #}
-    
-    {% if category %}
-		{% if category.name == "Are You Not Entertained?" %}
-			{% set podcast = "Are You Not Entertained?" %}
-		{% elif category.name == "Reacquainted" %}
-			{% set podcast = "Reacquainted" %}
-		{% elif category.name == "The Golden Age" %}
-			{% set podcast = "The Golden Age" %}
-		{% endif %}
-	{% elif article %}
-		{% if article.category == "Are You Not Entertained?" %}
-			{% set podcast = "Are You Not Entertained?" %}
-		{% elif article.category == "Reacquainted" %}
-			{% set podcast = "Reacquainted" %}
-		{% elif article.category == "The Golden Age" %}
-			{% set podcast = "The Golden Age" %}
-		{% endif %}
-	{% endif %}
 
-	{% if podcast == 'Are You Not Entertained?' %}
-		{% set LOGOSTEM = 'Entertained' %}
-		{% set APPLE_URL = 'https://itunes.apple.com/us/podcast/are-you-not-entertained/id1211555157' %}
-		{% set OVERCAST_URL = 'https://overcast.fm/itunes1211555157/are-you-not-entertained' %}
-		{% set PODCAST_RSS_URL = '{{SITEURL}}/entertained.rss' %}
-	{% elif podcast == "The Golden Age" %}
-		{% set LOGOSTEM = 'Golden Age' %}
-		{% set APPLE_URL = 'https://itunes.apple.com/us/podcast/the-golden-age/id1211555157' %}
-		{% set OVERCAST_URL = 'https://overcast.fm/itunes1211555157/the-golden-age' %}
-		{% set PODCAST_RSS_URL = '{{SITEURL}}/goldenage.rss' %}
-	{% elif podcast == "Reacquainted" %}
-		{% set LOGOSTEM = 'Reacquainted' %}
-		{% set APPLE_URL = 'https://itunes.apple.com/us/podcast/reacquainted/id1210150524' %}
-		{% set OVERCAST_URL = 'https://overcast.fm/itunes1210150524/reacquainted' %}
-		{% set PODCAST_RSS_URL = '%s/reacquainted.rss' % SITEURL %}
-	{% else %}
-		{% set LOGOSTEM = 'Vox Duo Generic Show Art' %}
-	{% endif %}
-    
     {% block opengraph %}
     <meta property="og:site_name" content="{{ SITENAME }}" />
     <meta name="twitter:card" content="summary" />
@@ -78,11 +74,12 @@
 
     {% if category %}
     <meta property="og:title" content="{{ category.name }} Episodes" />
-    <meta property="og:url" content="{{ category.url }}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ category.url }}" />
     <meta property="og:type" content="website" />
+    <meta name="debug" content="{{ LOGOSTEM }}" />
     <meta property="og:image" content="{{ SITEURL }}/theme/media/{{ LOGOSTEM }} Logo preview.jpg" />
     <meta itemprop="name" content="{{ category.name }} Episodes" />    
-    <meta itemprop="url" content="{{ category.url }}" />
+    <meta itemprop="url" content="{{ SITEURL }}/{{ category.url }}" />
 
     {% elif article %}
     <meta property="og:title" content="{{ article.title }}" />

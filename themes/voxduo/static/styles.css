@@ -11,28 +11,16 @@ html {
   box-sizing: border-box; }
 
 body {
-  background-color: #d4b392; }
+  background-color: #f8f8f8; }
 
 a {
-  color: #403579; }
+  color: #07889B; }
 
 a:visited {
-  color: #640231; }
+  color: #66B9BF; }
 
-.container {
-  display: grid;
-  grid-gap: 10rem 5rem;
-  grid-template-areas: "header" "main" "footer";
-  max-width: 90rem;
-  margin: 0 auto 0 auto; }
-
-.container-sidebar {
-  display: grid;
-  grid-gap: 10rem 5rem;
-  grid-template-columns: 3fr 1fr;
-  grid-template-areas: "header header" "main sidebar" "footer footer";
-  max-width: 90rem;
-  margin: 0 auto 0 auto; }
+h1, h2, h3, h4, h5, h6 {
+  color: #E37222; }
 
 header {
   grid-area: header;
@@ -63,8 +51,13 @@ footer {
   text-align: center; }
 
 aside {
-  grid-area: sidebar;
   padding: 0 2rem 1rem 2rem; }
+
+#sidebar-description {
+  grid-area: show-description; }
+
+#sidebar-subscription {
+  grid-area: show-subscription; }
 
 aside > div > p {
   margin-top: 0px; }
@@ -100,6 +93,9 @@ aside > div > p {
   font-weight: bold;
   font-size: 120%; }
 
+.podcast-preview, .podcast-preview-small {
+  border: 1px black solid; }
+
 .podcast-preview {
   height: 25rem;
   width: 25rem; }
@@ -123,6 +119,21 @@ hr.style-two {
 .apple-podcasts-button {
   width: 166px;
   height: 42px; }
+
+.container {
+  display: grid;
+  grid-gap: 10rem 5rem;
+  grid-template-areas: "header" "main" "footer";
+  max-width: 90rem;
+  margin: 0 auto 0 auto; }
+
+.container-sidebar {
+  display: grid;
+  grid-gap: 10rem 5rem;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "header header" "main show-subscription" "main show-description" "footer footer";
+  max-width: 90rem;
+  margin: 0 auto 0 auto; }
 
 /*
   Base font sizes based on Optimized Typography for 70 CPL in a 860px-wide Setting
@@ -202,7 +213,7 @@ hr.style-two {
     display: grid;
     grid-gap: 10rem 5rem;
     grid-template-columns: 3fr 1fr;
-    grid-template-areas: "header header" "main sidebar" "footer footer";
+    grid-template-areas: "header header" "main show-description" "main show-subscription" "footer footer";
     max-width: 75rem;
     margin: 0 auto 0 auto; }
 
@@ -280,7 +291,7 @@ hr.style-two {
     display: grid;
     grid-gap: 0.5rem 0.5rem;
     grid-template-columns: 3fr 1fr;
-    grid-template-areas: "header header" "main main" "sidebar sidebar" "footer footer";
+    grid-template-areas: "header header" "show-subscription show-subscription" "main main" "show-description show-description" "footer footer";
     margin: 0 auto 0 auto; }
 
   .overcast-button, .rss-button {

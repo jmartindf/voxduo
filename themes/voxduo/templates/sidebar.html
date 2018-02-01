@@ -1,6 +1,6 @@
 
-<aside id="sidebar-description">
-	<div>
+<aside>
+	<div id="sidebar-description">
 		{% if category %}
 		<h2>{{ category }}</h2>
 		{% endif %}
@@ -14,10 +14,7 @@
 			<p>Reacquainted is asking both of them the question we all want to ask old classmates: What in the world <em>happened</em> to you?</p>
 		{% endif %}
 	</div>
-</aside>
-
-<aside id="sidebar-subscription">
-	<div>
+	<div id="sidebar-subscription">
 		<p><a href="{{ APPLE_URL }}"><img src="{{ SITEURL }}/theme/media/subscribe/Listen_on_Apple_Podcasts.png" alt="Listen on Apple Podcasts." class="apple-podcasts-button" /></a></p>
 		<p><a href="{{ OVERCAST_URL }}"><img src="{{ SITEURL }}/theme/media/subscribe/Get it on Overcast.jpg" alt="Get it on Overcast." class="overcast-button" /></a></p>
 		<p><a href="{{ PODCAST_RSS_URL }}"><img src="{{ SITEURL }}/theme/media/subscribe/Get it on RSS.jpg" alt="Get it on RSS." class="rss-button" /></a></p>

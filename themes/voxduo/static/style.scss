@@ -22,28 +22,6 @@ a:visited {
 h1, h2, h3, h4, h5, h6 {
 	color: #E37222;
 }
-.container {
-	display: grid;
-	grid-gap: 10rem 5rem;
-	grid-template-areas:
-		"header"
-		"main"
-		"footer";
-	max-width: 90rem;
-	margin: 0 auto 0 auto;
-}
-.container-sidebar {
-	display: grid;
-	grid-gap: 10rem 5rem;
-	grid-template-columns: 3fr 1fr;
-	grid-template-areas:
-		"header header"
-		"main description"
-		"main subscription"
-		"footer footer";
-	max-width: 90rem;
-	margin: 0 auto 0 auto;
-}
 header {
 	grid-area: header;
 	display: grid;
@@ -154,6 +132,28 @@ hr.style-two {
 .apple-podcasts-button {
 	width: 166px;
 	height: 42px;
+}
+.container {
+	display: grid;
+	grid-gap: 10rem 5rem;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
+	max-width: 90rem;
+	margin: 0 auto 0 auto;
+}
+.container-sidebar {
+	display: grid;
+	grid-gap: 10rem 5rem;
+	grid-template-columns: 3fr 1fr;
+	grid-template-areas:
+		"header header"
+		"main show-subscription"
+		"main show-description"
+		"footer footer";
+	max-width: 90rem;
+	margin: 0 auto 0 auto;
 }
 
 /*
