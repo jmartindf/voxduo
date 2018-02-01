@@ -123,7 +123,8 @@ hr.style-two {
   grid-gap: 10rem 5rem;
   grid-template-areas: "header" "main" "footer";
   max-width: 90rem;
-  margin: 0 auto 0 auto; }
+  margin: 0 auto 0 auto;
+  padding: 0 0 0 1rem; }
 
 .container-sidebar {
   display: grid;
