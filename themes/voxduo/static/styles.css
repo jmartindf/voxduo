@@ -19,9 +19,6 @@ a {
 a:visited {
   color: #66B9BF; }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #E37222; }
-
 header {
   grid-area: header;
   display: grid;
@@ -43,7 +40,7 @@ header h1 {
   margin: auto 0rem;
   padding: auto 0rem; }
 
-#main {
+main {
   grid-area: main; }
 
 footer {
@@ -105,6 +102,7 @@ aside > div > p {
   width: 13rem; }
 
 h1, h2, h3, h4, h5, h6 {
+  color: #E37222;
   margin: 0; }
 
 hr.style-two {
@@ -117,8 +115,8 @@ hr.style-two {
   width: 166px; }
 
 .apple-podcasts-button {
-  width: 166px;
-  height: 42px; }
+  height: 60px;
+  width: 166px; }
 
 .container {
   display: grid;
@@ -131,9 +129,10 @@ hr.style-two {
   display: grid;
   grid-gap: 10rem 5rem;
   grid-template-columns: 3fr 1fr;
-  grid-template-areas: "header header" "main show-subscription" "main show-description" "footer footer";
+  grid-template-areas: "header header" "main show-description" "main show-subscription" "footer footer";
   max-width: 90rem;
-  margin: 0 auto 0 auto; }
+  margin: 0 auto 0 auto;
+  padding: 0 0 0 1rem; }
 
 /*
   Base font sizes based on Optimized Typography for 70 CPL in a 860px-wide Setting
@@ -217,12 +216,8 @@ hr.style-two {
     max-width: 75rem;
     margin: 0 auto 0 auto; }
 
-  .overcast-button, .rss-button {
+  .overcast-button, .rss-button, .apple-podcasts-button {
     height: 30px;
-    width: 83px; }
-
-  .apple-podcasts-button {
-    height: 21px;
     width: 83px; } }
 /*
   Base font sizes based on Optimized Typography for 14px Font in 320px-wide Setting
@@ -294,12 +289,11 @@ hr.style-two {
     grid-template-areas: "header header" "show-subscription show-subscription" "main main" "show-description show-description" "footer footer";
     margin: 0 auto 0 auto; }
 
-  .overcast-button, .rss-button {
-    height: 30px;
-    width: 83px; }
+  #sidebar-subscription > p {
+    display: inline; }
 
-  .apple-podcasts-button {
-    height: 21px;
+  .overcast-button, .rss-button, .apple-podcasts-button {
+    height: 30px;
     width: 83px; } }
 
 /*# sourceMappingURL=styles.css.map */
