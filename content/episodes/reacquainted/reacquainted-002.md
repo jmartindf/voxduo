@@ -15,6 +15,7 @@ Description: Adam and Joe go back to the beginning, reminiscing about first jobs
 Adam and Joe go back to the beginning, reminiscing about first jobs, first loves, and whether being homeschooled worked for them.
 
 * Joe's Homeschool Life
+    * [A Beka Video Academy](http://www.abekaacademy.org/Homeschool/DemoVideo/Default.aspx)
 * Adam Sees the Real World
 * Additional Words About Schooling
 * Joe's First Jobs

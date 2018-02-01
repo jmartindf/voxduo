@@ -12,5 +12,23 @@ EpTitle: That Least Contentious of Topics
 TweetText: Adam quizzes Joe on how his religious views have changed since they attended a fundamentalist youth group together.
 Description: Adam quizzes Joe on how his religious views have changed since they attended a fundamentalist youth group together.
 
-Adam and Joe were childhood friends, but life pulled them apart. 20 years later, they're very different people, and Reacquainted is asking both of them the question we all want to ask old classmates: What in the world *happened* to you?
+Adam quizzes Joe on how his religious views have changed since they attended a fundamentalist youth group together.
 
+* A Very, Very Unique Niche
+    * [The Theocrats](http://theocrats.minorthoughts.com/)
+    * [Minor Thoughts](https://minorthoughts.com/)
+* But, for Now, Religion!
+* What Has Changed for You?
+    * [Antipope (Multiple claimants to the papacy)](https://en.wikipedia.org/wiki/Antipope)
+* Views on Biblical Inerrancy
+    * "[Run From Your Life](http://www.blackhawkchurch.org/connect/media-resources/search-message-library/?sermon_id=206)" (*Jonah* as satire, sermon by Tim Mackey at Blackhawk Church) 
+    * [Why Didn't God Call the Light, Light?](https://minorthoughts.com/resources/why-didnt-god-call-the-light-light)
+* Why Do We Still Listen to the Old, Old Story?
+* Isn't Biblical Morality Evil?
+    * [Dashing the infants heads against the rock](https://www.esv.org/Psalm+137:9/)
+* What is Your Duty as a Christian?
+    * [Peter on (not) understanding Paul](https://www.esv.org/2+Peter+3:15/)
+    * [Do justly, love mercy, walk humbly with your God](https://www.esv.org/Micah+6:6/)
+* Where Do You Believe I'll Go?
+    * Romans 1, "they are without excuse"](https://www.esv.org/Romans+1:18/)
+    * C.S. Lewis on hell (*[The Great Divorce](https://en.wikipedia.org/wiki/The_Great_Divorce)*)
