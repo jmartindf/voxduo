@@ -72,16 +72,7 @@
     <meta name="description" content="" />
     <meta name="twitter:site" content="@FromVoxDuo" />
 
-    {% if category %}
-    <meta property="og:title" content="{{ category.name }} Episodes" />
-    <meta property="og:url" content="{{ SITEURL }}/{{ category.url }}" />
-    <meta property="og:type" content="website" />
-    <meta name="debug" content="{{ LOGOSTEM }}" />
-    <meta property="og:image" content="{{ SITEURL }}/theme/media/{{ LOGOSTEM }} Logo preview.jpg" />
-    <meta itemprop="name" content="{{ category.name }} Episodes" />    
-    <meta itemprop="url" content="{{ SITEURL }}/{{ category.url }}" />
-
-    {% elif article %}
+    {% if article %}
     <meta property="og:title" content="{{ article.title }}" />
     <meta property="og:url" content="{{ article.url }}" />
     <meta property="og:type" content="article" />
@@ -90,6 +81,15 @@
     <meta itemprop="name" content="{{ article.title }}" />    
     <meta itemprop="url" content="{{ article.url }}" />
     <meta itemprop="description" content="{{ article.summary }}" />
+
+    {% elif category %}
+    <meta property="og:title" content="{{ category.name }} Episodes" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ category.url }}" />
+    <meta property="og:type" content="website" />
+    <meta name="debug" content="{{ LOGOSTEM }}" />
+    <meta property="og:image" content="{{ SITEURL }}/theme/media/{{ LOGOSTEM }} Logo preview.jpg" />
+    <meta itemprop="name" content="{{ category.name }} Episodes" />    
+    <meta itemprop="url" content="{{ SITEURL }}/{{ category.url }}" />
 
     {% else %}
     <meta property="og:title" content="Episodes" />
