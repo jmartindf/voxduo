@@ -12,7 +12,7 @@ EpTitle: All of My Past Is Prologue
 TweetText: Adam’s written books, managed hostels and taught in Korea… all to prep for 2017?
 Description: As Adam's grand plan moves towards its masterful finale, listen to a recap of the opening acts of his forthcoming autohagiography. This one’s all about writing books, managing hostels, and teaching English in South Korea!
 EpisodeLink: https://voxduo.com/reacquainted/8
-guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:59349ef36b8f5beeb5b7a421'
+guid: 58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:59349ef36b8f5beeb5b7a421
 
 As Adam's grand plan moves towards its masterful finale, listen to a recap of the opening acts of his forthcoming autohagiography. This one’s all about writing books, managing hostels, and teaching English in South Korea!
 

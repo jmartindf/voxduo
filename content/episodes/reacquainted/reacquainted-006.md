@@ -11,7 +11,7 @@ Show: Reacquainted
 EpTitle: Intertwined Adventures
 TweetText: Adam recalls how he courted Anna the old-fashioned way - with DEATH-DEFYING STUNTS!
 Description: Adam recalls how his very Christian courtship of Anna in college almost killed him, literally and figuratively. As a bonus, hear how he and his new bride became illegal immigrants in South Korea.
-guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:59093d99bf629aaad4c68bbe'
+guid: 58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:59093d99bf629aaad4c68bbe
 
 Adam recalls how his very Christian courtship of Anna in college almost killed him, literally and figuratively. As a bonus, hear how he and his new bride became illegal immigrants in South Korea.
 

@@ -11,7 +11,7 @@ Show: Reacquainted
 EpTitle: The Wood Chipper That Is Teenage Love
 TweetText: We reminisce about first jobs & loves, and our homeschool lives.
 Description: Adam and Joe go back to the beginning, reminiscing about first jobs, first loves, and whether being homeschooled worked for them.
-guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:58b37b6717bffc544cef8f19'
+guid: 58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:58b37b6717bffc544cef8f19
 
 Adam and Joe go back to the beginning, reminiscing about first jobs, first loves, and whether being homeschooled worked for them.
 

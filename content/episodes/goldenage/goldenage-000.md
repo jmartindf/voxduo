@@ -11,7 +11,7 @@ EpTitle: MacGuffins All the Way Down
 TweetText: From the archives! A talk about STAR WARS: ROGUE ONE, to test our mics. A trial episode for an occasional show.
 Description: Why didn't Adam and Joe like STAR WARS: ROGUE ONE? And why did everyone else? They talk about it on the experimental first episode of The Golden Age.
 EpisodeLink: https://voxduo.com/goldenage/0
-guid: '58b349d886e6c04706d65977:58b34a543a04111160d8fd9d:58b8e6165016e1df9d3fcf2f'
+guid: 58b349d886e6c04706d65977:58b34a543a04111160d8fd9d:58b8e6165016e1df9d3fcf2f
 
 Why didn't Adam and Joe like STAR WARS: ROGUE ONE? And why did everyone else? They talk about it on the experimental first episode of The Golden Age.
 

@@ -12,7 +12,7 @@ EpTitle: My Butt On That Throne
 TweetText: Adam & Joe respectfully trade political views as prep for denouncing each other later.
 Description: It’s the calm before the storm, as Adam and Joe set the stage for their coming debates by updating each other on their political views.
 EpisodeLink: https://voxduo.com/reacquainted/10
-guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:595a654b9de4bb45731f9dbf'
+guid: 58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:595a654b9de4bb45731f9dbf
 
 It’s the calm before the storm, as Adam and Joe set the stage for their coming debates by updating each other on their political views.
 
