@@ -36,6 +36,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+FEED_ALL_RSS = 'voxduo.rss'
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),)
