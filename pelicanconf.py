@@ -96,6 +96,7 @@ PODCASTS = {
 		'PODCAST_FEED_IMAGE': 'https://beta.voxduo.com/images/Golden%20Age%20Logo.jpg',
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
+		'PODCAST_FEED_CATEGORY': ('TV & Film', 'Games & Hobbies')
 	},
 	'reacquainted': {
 		'PODCAST_FEED_PATH': u'reacquainted.rss',
