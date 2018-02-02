@@ -12,6 +12,7 @@ EpTitle: International Slideshow
 TweetText: Adam drones on about his world trip. Joe leads the snoring section for the Vox Populi.
 Description: It’s our final episode! If you want to be able to brag to your friends that you’ve listened to our whole series, though, you’re going to have to complete a special Vox Populi endurance test! Steel yourself for the soporific saga of Adam’s nine-month trek across the world, from the R.O.K. to the U.S. of A. You will not believe how long it can take one man to find himself.
 EpisodeLink: https://voxduo.com/reacquainted/18
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:59dbf2129f8dceedaf2b2731'
 
 It’s our final episode! If you want to be able to brag to your friends that you’ve listened to our whole series, though, you’re going to have to complete a special Vox Populi endurance test! Steel yourself for the soporific saga of Adam’s nine-month trek across the world, from the R.O.K. to the U.S. of A. You will not believe how long it can take one man to find himself.
 

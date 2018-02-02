@@ -11,6 +11,7 @@ Show: Reacquainted
 Description: Twenty years ago, Adam and Joe were homeschooled children in Norfolk, Virginia. Life’s taken them in two different directions since then.
 TweetText: 20 years ago, we were homeschooled friends. Life's since taken us in 2 different directions.
 EpTitle: We've Grown Apart
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:58b37adee3df2844f57c1310'
 
 Twenty years ago, Adam and Joe were homeschooled children in Norfolk, Virginia. Life’s taken them in two different directions since then.
 

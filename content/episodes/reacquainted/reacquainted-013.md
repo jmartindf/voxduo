@@ -12,6 +12,7 @@ EpTitle: To See People Prosper
 TweetText: Politics, Part II: Adam and Joe disgust each other talking about the min. wage.
 Description: The minimum wage: a necessary corrective in a world of greed or a well-intentioned but misguided killer of jobs? Adam and Joe clash over the best way to help.
 EpisodeLink: https://voxduo.com/reacquainted/13
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:597fa103197aea2732f8b263'
 
 The minimum wage: a necessary corrective in a world of greed or a well-intentioned but misguided killer of jobs? Adam and Joe clash over the best way to help.
 

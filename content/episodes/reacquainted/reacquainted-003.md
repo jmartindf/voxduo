@@ -11,6 +11,7 @@ Show: Reacquainted
 EpTitle: That Least Contentious of Topics
 TweetText: Adam quizzes Joe on how his religious views have changed since they attended a fundamentalist youth group together.
 Description: Adam quizzes Joe on how his religious views have changed since they attended a fundamentalist youth group together.
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:58b5a04459cc68c59cbad1a6'
 
 Adam quizzes Joe on how his religious views have changed since they attended a fundamentalist youth group together.
 

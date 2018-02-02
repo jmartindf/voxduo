@@ -12,16 +12,9 @@ EpTitle: How Many People Are You Willing to Have Die?
 TweetText: It's Adam & Joe’s healthcare debate! There will be blood!
 Description: It’s Adam & Joe’s healthcare debate! Feel free to enjoy this episode without fear for its participants, Vox Populi: both of them have insurance.
 EpisodeLink: https://voxduo.com/reacquainted/12
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:596cf4e86f4ca3599c7c2345'
 
 It’s Adam & Joe’s healthcare debate! Feel free to enjoy this episode without fear for its participants, Vox Populi: both of them have insurance.
-
-
-
-
-
-
-
-
 
 ## Chapters ##
 

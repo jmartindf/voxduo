@@ -12,6 +12,7 @@ EpTitle: Absolutely Maddening
 TweetText: Adam & Joe wrap up the politics with a discussion of that thorniest of issues: Abortion.
 Description: Adam and Joe wrap up their series of political discussions with this final installment - but they saved the thorniest issue for last. That’s right, Vox Populi: it’s the Abortion Episode.
 EpisodeLink: https://voxduo.com/reacquainted/17
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:59c2a82accc5c597339642a9'
 
 Adam and Joe wrap up their series of political discussions with this final installment - but they saved the thorniest issue for last. That’s right, Vox Populi: it’s the Abortion Episode.
 

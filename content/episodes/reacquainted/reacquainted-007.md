@@ -12,6 +12,7 @@ EpTitle: Break Out of the Technical
 TweetText: Joe’s making a difference at our nation’s leading healthcare software provider. Tune in to learn how!
 Description: In the first of our job-focused episodes, Joe manfully accepts the challenge of explaining to Adam his work at a healthcare software company that affects over half of all hospital patients nationwide. It’s pretty epic.
 EpisodeLink: https://voxduo.com/reacquainted/7
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:592396731b631bbb3a21b442'
 
 In the first of our job-focused episodes, Joe manfully accepts the challenge of explaining to Adam his work at a healthcare software company that affects over half of all hospital patients nationwide. It’s pretty epic.
 

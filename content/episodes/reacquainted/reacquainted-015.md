@@ -12,6 +12,7 @@ EpTitle: A Living Document
 TweetText: Politics IV: Joe's a Supreme Court geek. Adam ain't. He challenges Joe anyway.
 Description: Politics, Part the Fourth: Adam & Joe present their cases for how the Supreme Court should interpret law. Joe’s bit of a Supreme Court geek. Adam ain't. But that won’t stop him from challenging Joe anyway.
 EpisodeLink: https://voxduo.com/reacquainted/15
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:59a4cf9f03596ef2c21e3a92'
 
 Politics, Part the Fourth: Adam & Joe present their cases for how the Supreme Court should interpret law. Joe’s bit of a Supreme Court geek. Adam ain't. But that won’t stop him from challenging Joe anyway.
 

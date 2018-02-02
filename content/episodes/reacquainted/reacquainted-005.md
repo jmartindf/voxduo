@@ -11,12 +11,7 @@ Show: Reacquainted
 EpTitle: The Parameters of Our Relationship
 TweetText: Joe recounts how 2 Trekkies overcame anti-ginger prejudice to find true ❤️!
 Description: It's time to talk family, and every family starts with a love story. When Joe met Christine in college, the two Trekkies seemed perfect for one another. But could love overcome red hair?
-
-It's time to talk family, and every family starts with a love story. When Joe met Christine in college, the two Trekkies seemed perfect for one another. But could love overcome red hair?
-
-
-
-
+guid: '58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:58fe8e8120099efa20e17c77'
 
 It's time to talk family, and every family starts with a love story. When Joe met Christine in college, the two Trekkies seemed perfect for one another. But could love overcome red hair?
 
