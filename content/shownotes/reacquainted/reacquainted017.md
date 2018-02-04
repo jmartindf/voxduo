@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 Adam and Joe wrap up their series of political discussions with this final installment - but they saved the thorniest issue for last. That’s right, Vox Populi: it’s the Abortion Episode.
 
 1. I'm Joined by Adam
@@ -13,4 +17,5 @@ Adam and Joe wrap up their series of political discussions with this final insta
 7. That'll Do (63:14)
 8. Against Dynasties (64:59)
 9. The Travelogue Show (68:50)
+
 

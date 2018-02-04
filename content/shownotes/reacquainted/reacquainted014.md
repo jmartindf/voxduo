@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 - Hitch Fan Club
 - The Show (1:31)
 - Our Previous Debate (2:47)
@@ -12,3 +16,4 @@
 - Extremist Violence (59:22)
 - Goldberg v. Goldberg (63:57)
 - The Need for Education (72:19)
+

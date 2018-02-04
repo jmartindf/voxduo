@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 It’s our final episode! If you want to be able to brag to your friends that you’ve listened to our whole series, though, you’re going to have to complete a special Vox Populi endurance test! Steel yourself for the soporific saga of Adam’s nine-month trek across the world, from the R.O.K. to the U.S. of A. You will not believe how long it can take one man to find himself.
 
 1. One Of Our Shorter Episodes
@@ -25,5 +29,6 @@ It’s our final episode! If you want to be able to brag to your friends that yo
 19. Remembering It All (101:38)
 20. Closing (106:25)
 21. Our Last Planned Episode (67:03)
+
 
 

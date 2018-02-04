@@ -2,6 +2,10 @@
 
 
 
+
+
+
+
 - Let’s Get Started
 - A Minimum Wage Recap (0:27)
 - Minimum Income (3:14)
@@ -13,4 +17,5 @@
 - Accusations of Tribalism (57:46)
 - What Do You Say To Them? (76:31)
 - Summing Up (79:21)
+
 

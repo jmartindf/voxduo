@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 - Let’s Do Some Lightning Rounds
 - 1 — Healthcare (3:31)
 - 2 — Minimum Wage (6:03)
@@ -13,4 +9,5 @@
 - 4 — Political Extremism (12:10)
 - 5 — Democracy vs Republic (15:36)
 - 6 — Abortion (18:51)
+
 
