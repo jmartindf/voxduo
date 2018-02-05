@@ -1,6 +1,6 @@
 Title: 3: That Least Contentious of Topics
 Slug: 3
-Date: 2017-02-26
+Date: 2017-03-28 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted003.mp3

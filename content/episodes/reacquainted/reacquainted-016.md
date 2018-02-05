@@ -1,6 +1,6 @@
 Title: 16: A Very Old Government
 Slug: 16
-Date: 2017-09-11
+Date: 2017-09-12 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted016.mp3

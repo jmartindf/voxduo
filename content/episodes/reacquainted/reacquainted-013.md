@@ -1,6 +1,6 @@
 Title: 13: To See People Prosper
 Slug: 13
-Date: 2017-07-31
+Date: 2017-08-01 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted013.mp3

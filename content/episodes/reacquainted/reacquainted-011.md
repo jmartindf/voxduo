@@ -1,6 +1,6 @@
 Title: 11: Topical Race
 Slug: 11
-Date: 2017-07-17
+Date: 2017-07-17 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted011.mp3

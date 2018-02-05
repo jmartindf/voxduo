@@ -1,6 +1,6 @@
 Title: 14: How Wide To Set My Beam
 Slug: 14
-Date: 2017-08-14
+Date: 2017-08-15 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted014.mp3

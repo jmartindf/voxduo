@@ -1,6 +1,6 @@
 Title: 8: All of My Past Is Prologue
 Slug: 8
-Date: 2017-06-04
+Date: 2017-06-06 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted008.mp3

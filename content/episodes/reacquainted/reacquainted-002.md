@@ -1,6 +1,6 @@
 Title: Reacquainted 2: The Wood Chipper That Is Teenage Love
 Slug: 2
-Date: 2017-02-24
+Date: 2017-03-14 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted002.mp3

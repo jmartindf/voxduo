@@ -1,6 +1,6 @@
 Title: 7: Break Out of the Technical
 Slug: 7
-Date: 2017-05-22
+Date: 2017-05-23 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted007.mp3

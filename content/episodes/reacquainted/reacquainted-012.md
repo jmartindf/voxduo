@@ -1,6 +1,6 @@
 Title: 12: How Many People Are You Willing to Have Die?
 Slug: 12
-Date: 2017-07-29
+Date: 2017-07-18 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted012.mp3

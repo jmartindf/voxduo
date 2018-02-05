@@ -1,6 +1,6 @@
 Title: 4: Like a Jenga Game
 Slug: 4
-Date: 2017-04-09
+Date: 2017-04-11 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted004.mp3

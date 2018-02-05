@@ -1,6 +1,6 @@
 Title: 15: A Living Document
 Slug: 15
-Date: 2017-08-28
+Date: 2017-08-29 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted015.mp3

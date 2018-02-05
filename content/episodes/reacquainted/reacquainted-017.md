@@ -1,6 +1,6 @@
 Title: 17: Absolutely Maddening
 Slug: 17
-Date: 2017-09-25
+Date: 2017-09-26 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted017.mp3

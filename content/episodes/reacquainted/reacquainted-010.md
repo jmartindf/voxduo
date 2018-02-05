@@ -1,6 +1,6 @@
 Title: 10: My Butt On That Throne
 Slug: 10
-Date: 2017-07-03
+Date: 2017-07-04 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted010.mp3

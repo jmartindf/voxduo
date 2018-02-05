@@ -1,6 +1,6 @@
 Title: 6: Intertwined Adventures
 Slug: 6
-Date: 2017-05-02
+Date: 2017-05-09 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted006.mp3

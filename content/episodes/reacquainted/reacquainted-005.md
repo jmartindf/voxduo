@@ -1,6 +1,6 @@
 Title: 5: The Parameters of Our Relationship
 Slug: 5
-Date: 2017-05-02
+Date: 2017-04-25 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted005.mp3

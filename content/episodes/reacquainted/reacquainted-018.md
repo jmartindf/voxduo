@@ -1,11 +1,11 @@
 Title: 18: International Slideshow
 Slug: 18
-Date: 2017-10-09
+Date: 2017-10-10 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted018.mp3
 Length: 52635853
-Duration: 1:49:7
+Duration: 1:49:07
 Episode: 18
 Show: Reacquainted
 EpTitle: International Slideshow

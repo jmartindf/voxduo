@@ -1,6 +1,6 @@
 Title: 9: When We're Not Being Responsible
 Slug: 9
-Date: 2017-06-18
+Date: 2017-06-20 06:00:00
 Author: Vox Duo
 Category: Reacquainted
 Podcast: https://files.voxduo.com/reacquainted/reacquainted009.mp3
