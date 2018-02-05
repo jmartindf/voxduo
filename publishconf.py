@@ -24,6 +24,6 @@ DELETE_OUTPUT_DIRECTORY = True
 #GOOGLE_ANALYTICS = ""
 
 # Fix podcast feed image URL
-PODCASTS['entertained']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Entertained Logo preview.jpg' % SITEURL
-PODCASTS['reacquainted']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Reacquainted Logo preview.jpg' % SITEURL
-PODCASTS['goldenage']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Golden Age Logo preview.jpg' % SITEURL
+PODCASTS['entertained']['PODCAST_FEED_IMAGE'] = '%s/%s' % (SITEURL, ENTERTAINED_LOGO)
+PODCASTS['reacquainted']['PODCAST_FEED_IMAGE'] = '%s/%s' % (SITEURL, REACQUAINTED_LOGO)
+PODCASTS['goldenage']['PODCAST_FEED_IMAGE'] = '%s/%s' % (SITEURL, GOLDENAGE_LOGO)
