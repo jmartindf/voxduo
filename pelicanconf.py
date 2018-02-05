@@ -9,6 +9,10 @@ SITE_DESCRIPTION = 'is where Adam &amp; Joe talk about what interests them, for 
 SITEURL = 'http://ego.home.thosemartins.family/~jmartin/voxpel'
 TWITTER_URL = 'https://twitter.com/FromVoxDuo'
 
+ENTERTAINED_LOGO = 'theme/media/Entertained Logo.jpg'
+REACQUAINTED_LOGO = 'theme/media/Reacquainted Logo.jpg'
+GOLDENAGE_LOGO = 'theme/media/Golden Age Logo.jpg'
+
 PATH = 'content'
 STATIC_PATHS = [
     'audio',
@@ -98,7 +102,9 @@ PODCASTS = {
 		    datetime.now().year, AUTHOR),
 		'PODCAST_FEED_SUBTITLE': u"We've never had more high quality ways to be entertained.",
 		'PODCAST_FEED_AUTHOR': u'Vox Duo',
-		'PODCAST_FEED_SUMMARY': u'',
+		'PODCAST_FEED_SUMMARY': u"""From comic book movies to TV shows, from board games to console games, from books to comic books, we're living through a golden age of entertainment.
+
+Join Adam & Joe as they discuss their wealth of choices.""",
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
 		'PODCAST_FEED_CATEGORY': ('TV & Film', 'Games & Hobbies')
@@ -112,7 +118,7 @@ PODCASTS = {
 		    datetime.now().year, AUTHOR),
 		'PODCAST_FEED_SUBTITLE': u'What in the world happened to you?',
 		'PODCAST_FEED_AUTHOR': u'Vox Duo',
-		'PODCAST_FEED_SUMMARY': u'',
+		'PODCAST_FEED_SUMMARY': u"Adam and Joe were childhood friends, but life pulled them apart. 20 years later, they're very different people.",
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
 	},
@@ -125,7 +131,7 @@ PODCASTS = {
 		    datetime.now().year, AUTHOR),
 		'PODCAST_FEED_SUBTITLE': u'Occasional movie reviews, from the Vox Duo crew.',
 		'PODCAST_FEED_AUTHOR': u'Vox Duo',
-		'PODCAST_FEED_SUMMARY': u'',
+		'PODCAST_FEED_SUMMARY': u"An occasional show, to talk about entertainment. But mostly movies.",
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
 	}
