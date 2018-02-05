@@ -94,7 +94,6 @@ PODCASTS = {
 		'PODCAST_FEED_SUBTITLE': u"We've never had more high quality ways to be entertained.",
 		'PODCAST_FEED_AUTHOR': u'Vox Duo',
 		'PODCAST_FEED_SUMMARY': u'',
-		'PODCAST_FEED_IMAGE': 'https://beta.voxduo.com/images/Golden%20Age%20Logo.jpg',
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
 		'PODCAST_FEED_CATEGORY': ('TV & Film', 'Games & Hobbies')
@@ -109,7 +108,6 @@ PODCASTS = {
 		'PODCAST_FEED_SUBTITLE': u'What in the world happened to you?',
 		'PODCAST_FEED_AUTHOR': u'Vox Duo',
 		'PODCAST_FEED_SUMMARY': u'',
-		'PODCAST_FEED_IMAGE': 'https://beta.voxduo.com/images/Reacquainted%20Logo.jpg',
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
 	},
@@ -120,14 +118,17 @@ PODCASTS = {
 		'PODCAST_FEED_LANGUAGE': u'en-us',
 		'PODCAST_FEED_COPYRIGHT': u'Copyright 2017-{0} {1}'.format(
 		    datetime.now().year, AUTHOR),
-		'PODCAST_FEED_SUBTITLE': u'As film studios battle for our ever-decreasing attention spans, Adam and Joe watch their efforts and ask each other the titular question.',
+		'PODCAST_FEED_SUBTITLE': u'Occasional movie reviews, from the Vox Duo crew.',
 		'PODCAST_FEED_AUTHOR': u'Vox Duo',
 		'PODCAST_FEED_SUMMARY': u'',
-		'PODCAST_FEED_IMAGE': 'https://beta.voxduo.com/images/Entertained%20Logo.jpg',
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
 	}
 }
+
+PODCASTS['entertained']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Entertained Logo preview.jpg' % SITEURL
+PODCASTS['reacquainted']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Reacquainted Logo preview.jpg' % SITEURL
+PODCASTS['goldenage']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Golden Age Logo preview.jpg' % SITEURL
 
 def duration_filter(value):
 	if value.count(":") > 0:

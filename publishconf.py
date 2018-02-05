@@ -22,3 +22,8 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+# Fix podcast feed image URL
+PODCASTS['entertained']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Entertained Logo preview.jpg' % SITEURL
+PODCASTS['reacquainted']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Reacquainted Logo preview.jpg' % SITEURL
+PODCASTS['goldenage']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Golden Age Logo preview.jpg' % SITEURL
