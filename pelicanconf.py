@@ -61,7 +61,7 @@ ARTICLE_SAVE_AS = '{category}/{slug}'
 CATEGORY_URL = '{slug}'
 CATEGORY_SAVE_AS = '{slug}/index.html'
 
-PAGINATION_PATTERNS = (
+PAGINATION_PATTERNS = (#
 	(1, '{base_name}/', '{base_name}/index.html'),
 	(2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
@@ -107,7 +107,8 @@ PODCASTS = {
 Join Adam & Joe as they discuss their wealth of choices.""",
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
-		'PODCAST_FEED_CATEGORY': ('TV & Film', 'Games & Hobbies')
+		'PODCAST_FEED_CATEGORY': ('TV & Film', 'Games & Hobbies'),
+		'PODCAST_FEED_NEWURL': 'https://files.voxduo.com/goldenage.rss'
 	},
 	'reacquainted': {
 		'PODCAST_FEED_PATH': u'reacquainted.rss',
