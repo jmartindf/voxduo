@@ -31,5 +31,5 @@ Adam quizzes Joe on how his religious views have changed since they attended a f
     * [Peter on (not) understanding Paul](https://www.esv.org/2+Peter+3:15/)
     * [Do justly, love mercy, walk humbly with your God](https://www.esv.org/Micah+6:6/)
 * Where Do You Believe I'll Go?
-    * Romans 1, "they are without excuse"](https://www.esv.org/Romans+1:18/)
+    * [Romans 1, "they are without excuse"](https://www.esv.org/Romans+1:18/)
     * C.S. Lewis on hell (*[The Great Divorce](https://en.wikipedia.org/wiki/The_Great_Divorce)*)
