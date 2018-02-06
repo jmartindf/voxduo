@@ -107,7 +107,8 @@ PODCASTS = {
 Join Adam & Joe as they discuss their wealth of choices.""",
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
-		'PODCAST_FEED_CATEGORY': ('TV & Film', 'Games & Hobbies')
+		'PODCAST_FEED_CATEGORY': ('TV & Film', 'Games & Hobbies'),
+		'PODCAST_FEED_NEWURL': 'https://files.voxduo.com/goldenage.rss'
 	},
 	'reacquainted': {
 		'PODCAST_FEED_PATH': u'reacquainted.rss',
