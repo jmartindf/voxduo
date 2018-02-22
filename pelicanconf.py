@@ -40,7 +40,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-FEED_ALL_RSS = 'voxduo.rss'
+FEED_ALL_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),)
@@ -86,7 +86,7 @@ PODCAST_FEED_COPYRIGHT = u'Copyright 2017-{0} {1}'.format(
 PODCAST_FEED_SUBTITLE = u'The voice of two people'
 PODCAST_FEED_AUTHOR = u'Vox Duo'
 PODCAST_FEED_SUMMARY = u''
-PODCAST_FEED_IMAGE = 'https://beta.voxduo.com/images/Reacquainted%20Logo.jpg'
+PODCAST_FEED_IMAGE = '%s/theme/media/Vox Duo Generic Show Art Logo preview.jpg' % SITEURL
 PODCAST_FEED_OWNER_NAME = 'Vox Duo'
 PODCAST_FEED_OWNER_EMAIL = 'duo@voxduo.com'
 PODCAST_FEED_CATEGORY = ['Society & Culture', 'Personal Journals']

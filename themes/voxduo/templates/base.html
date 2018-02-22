@@ -7,6 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 	<link rel="stylesheet" href="{{ SITEURL }}/theme/styles.css" type="text/css" media="screen" />
+    {% if PODCAST_FEED_PATH and not category and not article %}
+    <link href="{{ FEED_DOMAIN }}/{{ PODCAST_FEED_PATH }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Master Podcast Feed" />
+    {% endif %}
     {% if FEED_ALL_RSS and not category and not article %}
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
     {% endif %}
