@@ -11,7 +11,7 @@ TWITTER_URL = 'https://twitter.com/FromVoxDuo'
 
 ENTERTAINED_LOGO = 'theme/media/Entertained Logo.jpg'
 REACQUAINTED_LOGO = 'theme/media/Reacquainted Logo.jpg'
-GOLDENAGE_LOGO = 'theme/media/Golden Age Logo.jpg'
+GOLDENAGE_LOGO = 'theme/media/Golden Age Logo2.jpg'
 
 PATH = 'content'
 STATIC_PATHS = [
