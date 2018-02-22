@@ -9,12 +9,12 @@ Duration: 1:29:10
 Episode: 5
 Show: The Golden Age
 EpTitle: Black Panther
-TweetText: Joe & Adam engage in a spoiler filled discussion of Marvel's BLACK PANTHER film.
-Description: Joe & Adam engage in a spoiler filled discussion of Marvel's BLACK PANTHER film.
+TweetText: "We've given our #entertainment podcast a makeover! THE GOLDEN AGE -- a show committed to celebrating our century's unrivaled creativity! And what better subject to start with than @Marvel's #BlackPanther?"
+Description: "We've given our entertainment podcast a makeover! THE GOLDEN AGE -- a show committed to celebrating our century's unrivaled creativity! And what better subject to start with than Marvel's BLACK PANTHER?"
 EpisodeLink: https://voxduo.com/goldenage/5
+---
 
-
-Joe & Adam engage in a spoiler filled discussion of Marvel's *Black Panther* film. ([Plot summary](http://marvelcinematicuniverse.wikia.com/wiki/Black_Panther_(film)).)
+We've given our entertainment podcast a makeover! THE GOLDEN AGE -- a show committed to celebrating our century's unrivaled creativity! And what better subject to start with than Marvel's *Black Panther*? ([Plot summary](http://marvelcinematicuniverse.wikia.com/wiki/Black_Panther_(film)).)
 
 01. This Cultural Moment
 01. Opening Exposition

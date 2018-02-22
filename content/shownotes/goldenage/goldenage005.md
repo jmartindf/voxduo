@@ -1,8 +1,4 @@
-
-
-
-
-Joe & Adam engage in a spoiler filled discussion of Marvel's *Black Panther* film. ([Plot summary](http://marvelcinematicuniverse.wikia.com/wiki/Black_Panther_(film)).)
+We've given our entertainment podcast a makeover! THE GOLDEN AGE -- a show committed to celebrating our century's unrivaled creativity! And what better subject to start with than Marvel's *Black Panther*? ([Plot summary](http://marvelcinematicuniverse.wikia.com/wiki/Black_Panther_(film)).)
 
 01. This Cultural Moment
 01. Opening Exposition
