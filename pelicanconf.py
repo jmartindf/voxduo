@@ -102,9 +102,7 @@ PODCASTS = {
 		    datetime.now().year, AUTHOR),
 		'PODCAST_FEED_SUBTITLE': u"We've never had more high quality ways to be entertained.",
 		'PODCAST_FEED_AUTHOR': u'Vox Duo',
-		'PODCAST_FEED_SUMMARY': u"""From comic book movies to TV shows, from board games to console games, from books to comic books, we're living through a golden age of entertainment.
-
-Join Adam & Joe as they discuss their wealth of choices.""",
+		'PODCAST_FEED_SUMMARY': u"""Have we ever had it so good? Not if you ask Adam and Joe, the vainglorious Vox Duo — and they intend to prove it, by spotlighting the best of today’s movies, comics, and more!""",
 		'PODCAST_FEED_OWNER_NAME': 'Vox Duo',
 		'PODCAST_FEED_OWNER_EMAIL': 'duo@voxduo.com',
 		'PODCAST_FEED_CATEGORY': ('TV & Film', 'Games & Hobbies'),
@@ -138,9 +136,9 @@ Join Adam & Joe as they discuss their wealth of choices.""",
 	}
 }
 
-PODCASTS['entertained']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Entertained Logo preview.jpg' % SITEURL
-PODCASTS['reacquainted']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Reacquainted Logo preview.jpg' % SITEURL
-PODCASTS['goldenage']['PODCAST_FEED_IMAGE'] = '%s/theme/media/Golden Age Logo preview.jpg' % SITEURL
+PODCASTS['entertained']['PODCAST_FEED_IMAGE'] = '%s/%s' % (SITEURL, ENTERTAINED_LOGO)
+PODCASTS['reacquainted']['PODCAST_FEED_IMAGE'] = '%s/%s' % (SITEURL, REACQUAINTED_LOGO)
+PODCASTS['goldenage']['PODCAST_FEED_IMAGE'] = '%s/%s' % (SITEURL, GOLDENAGE_LOGO)
 
 def duration_filter(value):
 	if value.count(":") > 0:
