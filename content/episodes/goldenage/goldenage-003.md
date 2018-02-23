@@ -9,8 +9,8 @@ Duration: 51:32
 Episode: 3
 Show: The Golden Age
 EpTitle: Spider-Man: Homecoming
-TweetText: The Vox Duo gush glowingly about Peter Parker's return to the Marvel Cinematic Universe. Homecoming is the movie that makes it great to feel like a Spider-Man fan again. And is Vulture a great villain or what?
-Description: The Vox Duo gush glowingly about Peter Parker's return to the Marvel Cinematic Universe. Homecoming is the movie that makes it great to feel like a Spider-Man fan again. And is Vulture a great villain or what?
+TweetText: The Vox Duo gush glowingly about Peter Parker's return to the Marvel Cinematic Universe. HOMECOMING is the movie that makes it great to feel like a Spider-Man fan again. And is Vulture a great villain or what?
+Description: The Vox Duo gush glowingly about Peter Parker's return to the Marvel Cinematic Universe. HOMECOMING is the movie that makes it great to feel like a Spider-Man fan again. And is Vulture a great villain or what?
 EpisodeLink: https://voxduo.com/goldenage/3
 
 

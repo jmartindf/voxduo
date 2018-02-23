@@ -9,8 +9,8 @@ Duration: 1:29:10
 Episode: 5
 Show: The Golden Age
 EpTitle: Black Panther
-TweetText: "We've given our #entertainment podcast a makeover! THE GOLDEN AGE -- a show committed to celebrating our century's unrivaled creativity! And what better subject to start with than @Marvel's #BlackPanther?"
-Description: "We've given our entertainment podcast a makeover! THE GOLDEN AGE -- a show committed to celebrating our century's unrivaled creativity! And what better subject to start with than Marvel's BLACK PANTHER?"
+TweetText: We've given our #entertainment podcast a makeover! THE GOLDEN AGE -- a show committed to celebrating our century's unrivaled creativity! And what better subject to start with than @Marvel's #BlackPanther?
+Description: We've given our entertainment podcast a makeover! THE GOLDEN AGE -- a show committed to celebrating our century's unrivaled creativity! And what better subject to start with than Marvel's BLACK PANTHER?
 EpisodeLink: https://voxduo.com/goldenage/5
 ---
 

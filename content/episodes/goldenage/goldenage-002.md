@@ -10,7 +10,7 @@ Episode: 2
 Show: The Golden Age
 EpTitle: Valerian and the City of a Thousand Planets
 TweetText: A 'big, dumb movie with heart' is brought down by sloppy characterization.
-Description: With a better visual design than Star Wars, *Valarian and the City of a Thousand Planets* is Luc Besson's latest big, dumb movie with heart. But how much heart does it have? And is it worth your time? Adam & Joe marvel at both the stunning visuals and sloppy characterization.
+Description: With a better visual design than Star Wars, VALERIAN AND THE CITY OF A THOUSAND PLANETS is Luc Besson's latest big, dumb movie with heart. But how much heart does it have? And is it worth your time? Adam & Joe marvel at both the stunning visuals and sloppy characterization.
 EpisodeLink: https://voxduo.com/goldenage/2
 
 
