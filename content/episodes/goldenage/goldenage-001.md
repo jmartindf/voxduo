@@ -9,7 +9,6 @@ Duration: 1:07:36
 Episode: 1
 Show: The Golden Age
 guid: 58b349d886e6c04706d65977:58b34a543a04111160d8fd9d:59348c6537c581fea84a0578
-
 EpTitle: Wonder Woman
 TweetText: Two straight white males talk Doomed Quest Plots, the Ludendorff Question, and the DCEU in color!
 Description: For all its accolades, does Wonder Woman meet with the demanding expectations of white straight males? Joe and Adam discuss Doomed Plot Quests, the Ludendorff Question, crying women, the DCEU's encouraging experiment with color, and more.
