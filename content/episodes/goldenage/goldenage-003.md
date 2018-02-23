@@ -15,7 +15,7 @@ EpisodeLink: https://voxduo.com/goldenage/3
 
 
 
-The Vox Duo gush glowingly about Peter Parker's return to the Marvel Cinematic Universe. Homecoming is the movie that makes it great to feel like a Spider-Man fan again. And is Vulture a great villain or what?
+The Vox Duo gush glowingly about Peter Parker's return to the Marvel Cinematic Universe. *Spider-Man: Homecoming* is the movie that makes it great to feel like a Spider-Man fan again. And is Vulture a great villain or what?
 
 1. Spidey's Back!
 1. What's the Movie's Throughline?
