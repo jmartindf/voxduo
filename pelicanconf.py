@@ -12,6 +12,7 @@ TWITTER_URL = 'https://twitter.com/FromVoxDuo'
 ENTERTAINED_LOGO = 'theme/media/Entertained Logo.jpg'
 REACQUAINTED_LOGO = 'theme/media/Reacquainted Logo.jpg'
 GOLDENAGE_LOGO = 'theme/media/Golden Age Logo2.jpg'
+MASTER_FEED_LOGO = 'theme/media/Vox Duo Generic Show Art Logo.jpg'
 
 PATH = 'content'
 STATIC_PATHS = [
@@ -86,7 +87,7 @@ PODCAST_FEED_COPYRIGHT = u'Copyright 2017-{0} {1}'.format(
 PODCAST_FEED_SUBTITLE = u'The voice of two people'
 PODCAST_FEED_AUTHOR = u'Vox Duo'
 PODCAST_FEED_SUMMARY = u''
-PODCAST_FEED_IMAGE = '%s/theme/media/Vox Duo Generic Show Art Logo preview.jpg' % SITEURL
+PODCAST_FEED_IMAGE = '%s/%s' % (SITEURL, MASTER_FEED_LOGO)
 PODCAST_FEED_OWNER_NAME = 'Vox Duo'
 PODCAST_FEED_OWNER_EMAIL = 'duo@voxduo.com'
 PODCAST_FEED_CATEGORY = ['Society & Culture', 'Personal Journals']
