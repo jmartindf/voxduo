@@ -1,6 +1,6 @@
 Title: 2: Valerian and the City of a Thousand Planets
 Slug: 2
-Date: 2017-07-22 10:22:39
+Date: 2017-07-23 19:22:39
 Author: Vox Duo
 Category: The Golden Age
 Podcast: https://files.voxduo.com/goldenage/goldenage002.mp3
