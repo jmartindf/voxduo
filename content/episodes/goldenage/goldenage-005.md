@@ -1,6 +1,6 @@
 Title: 5: Black Panther
 Slug: 5
-Date: 2018-02-21
+Date: 2018-02-23 13:00:00
 Author: Vox Duo
 Category: The Golden Age
 Podcast: https://files.voxduo.com/goldenage/goldenage005.mp3
