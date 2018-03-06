@@ -9,10 +9,10 @@ SITE_DESCRIPTION = 'is where Adam &amp; Joe talk about what interests them, for 
 SITEURL = 'http://ego.home.thosemartins.family/~jmartin/voxpel'
 TWITTER_URL = 'https://twitter.com/FromVoxDuo'
 
-ENTERTAINED_LOGO = 'theme/media/Entertained Logo.jpg'
-REACQUAINTED_LOGO = 'theme/media/Reacquainted Logo.jpg'
-GOLDENAGE_LOGO = 'theme/media/Golden Age Logo2.jpg'
-MASTER_FEED_LOGO = 'theme/media/Vox Duo Generic Show Art Logo.jpg'
+ENTERTAINED_LOGO = 'theme/media/Entertained%20Logo.jpg'
+REACQUAINTED_LOGO = 'theme/media/Reacquainted%20Logo.jpg'
+GOLDENAGE_LOGO = 'theme/media/Golden%20Age%20Logo2.jpg'
+MASTER_FEED_LOGO = 'theme/media/Vox%20Duo%20Generic%20Show%20Art%20Logo.jpg'
 
 PATH = 'content'
 STATIC_PATHS = [
