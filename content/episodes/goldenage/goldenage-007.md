@@ -1,6 +1,6 @@
 Title: 7: The Punisher
 Slug: 7
-Date: 2018-03-18
+Date: 2018-03-20 06:00:00
 Author: Vox Duo
 Category: The Golden Age
 Podcast: https://files.voxduo.com/goldenage/goldenage007.mp3
@@ -9,8 +9,8 @@ Duration: 1:23:17
 Episode: 7
 Show: The Golden Age
 EpTitle: The Punisher
-TweetText: Marvel's THE PUNISHER, on Netflix is good. Really good. How did it succeed where other Marvel Netflix shows stumbled. Joe and Adam investigate.
-Description: Marvel's THE PUNISHER is the first Netflix show that doesn't inadvertently punish its fans. How did it succeed where other Marvel Netflix shows stumbled? Joe and Adam investigate.
+TweetText: @Marvel's @ThePunisher, on @Netflix is good. Really good. How did it succeed where other Marvel Netflix shows stumbled? Joe and Adam investigate.
+Description: Marvel's THE PUNISHER is that rare Marvel show on Netflix that doesn't inadvertently punish its fans. How did it succeed where the others stumbled? Joe and Adam investigate.
 EpisodeLink: https://voxduo.com/goldenage/7
 
 
