@@ -1,6 +1,6 @@
 Title: 9: A Respectful View of Hitler
 Slug: 9
-Date: 2018-05-14 06:00:00
+Date: 2018-05-15 06:00:00
 Author: Vox Duo
 Category: The Golden Age
 Podcast: https://files.voxduo.com/goldenage/goldenage009.mp3
