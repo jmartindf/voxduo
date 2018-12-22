@@ -1,0 +1,341 @@
+/* Set a base font-size of 10px, for easier math with REM units
+   1 rem = 10px
+*/
+html {
+	font-size: 10px;
+}
+/* Universal Box Sizing */
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+body {
+	background-color: #f8f8f8;
+}
+a {
+	color: #07889B;
+}
+a:visited {
+	color: #66B9BF;
+}
+header {
+	grid-area: header;
+	display: grid;
+	grid-template-columns: 23rem 1fr;
+	grid-gap: .5rem 2rem; // row column
+	height: 23rem;
+}
+header h1 {
+	text-align: left;
+	vertical-align: middle;
+	margin: 0rem;
+	font-variant: small-caps;
+}
+#header-image img {
+	height: 230px;
+	width: 230px;
+}
+
+#header-title {
+	margin: auto 0rem;
+	padding: auto 0rem;
+}
+main {
+	grid-area: main;
+}
+footer {
+	grid-area: footer;
+	text-align: center;
+}
+aside {
+	// background-color: white;
+	padding: 0 2rem 1rem 2rem;
+}
+#sidebar-description {
+	grid-area: show-description;
+}
+#sidebar-subscription {
+	grid-area: show-subscription;
+}
+
+aside > div > p {
+	margin-top: 0px;
+}
+.podcast-episode, .podcast-episode-small {
+	display: grid;
+	grid-template-columns: 25rem 1fr;
+	grid-gap: 0.25rem 5rem;
+	grid-template-areas:
+		"podcast-artwork episode-meta"
+		"episode-description episode-description";
+}
+.podcast-episode-small {
+	padding: 3rem 0 2rem 0;
+}
+.podcast-episode-small {
+	grid-template-columns: 13rem 1fr;
+	grid-gap: 0.25rem 5rem;
+}
+.podcast-artwork, .podcast-artwork-small {
+	grid-area: podcast-artwork;
+}
+.episode-meta {
+	grid-area: episode-meta;
+}
+.episode-date, .episode-description {
+	grid-area: episode-description;
+	//padding: 0 1rem 5rem 5rem;
+}
+.episode-podcast {
+	font-variant: small-caps;
+	display: block;
+}
+.episode-title {
+	display: block;
+	font-weight: bold;
+	font-size: 120%;
+}
+// .episode-description {
+// 	padding-bottom: 5rem;
+// }
+.podcast-preview, .podcast-preview-small {
+	border: 1px black solid;
+}
+.podcast-preview {
+	height: 25rem;
+	width: 25rem;
+}
+.podcast-preview-small {
+	height: 13rem;
+	width: 13rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #E37222;
+	margin: 0;
+}
+// https://css-tricks.com/examples/hrs/
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    // margin: 1rem 0 5rem 0;
+    // padding: 1rem 0 1rem 0;
+}
+.overcast-button, .rss-button {
+	height: 60px;
+	width: 166px;
+}
+.apple-podcasts-button {
+	height: 60px;
+	width: 166px;
+}
+.container {
+	display: grid;
+	grid-gap: 10rem 5rem;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
+	max-width: 90rem;
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 1rem;
+}
+.container-sidebar {
+	display: grid;
+	grid-gap: 10rem 5rem;
+	grid-template-columns: 3fr 1fr;
+	grid-template-areas:
+		"header header"
+		"main show-description"
+		"main show-subscription"
+		"footer footer";
+	max-width: 90rem;
+	margin: 0 auto 0 auto;
+	padding: 0 0 0 1rem;
+}
+
+/*
+  Base font sizes based on Optimized Typography for 70 CPL in a 860px-wide Setting
+  Golden Ratio Typography Calculator
+  https://pearsonified.com/typography/
+*/
+@media all and (min-width: 960px) {
+	$baseline: 3.1rem;
+	body {
+		/* Primary text: 28px; */
+		font-size: 2.1rem;
+		line-height: $baseline;
+
+	}
+	header p {
+		padding: 0rem;
+		margin: .25*$baseline 0 0 0;
+	}
+	h1 {
+		/* 73 pixels */
+		font-size: 5.5rem;
+		line-height: 2*$baseline;
+	}
+	h2 {
+		/* 45 pixels */
+		font-size: 3.4rem;
+		line-height: 1.5*$baseline;
+		padding: 0 0 .5*$baseline 0;
+	}
+	h3, h4, h5, h6 {
+		/* 36 pixels */
+		font-size: 2.7rem;
+		line-height: $baseline;
+	}
+	.smalltext {
+		/* 22 pixels */
+		font-size: 1.7rem;
+		line-height: 1.7rem;
+	}
+}
+
+/*
+  Base font sizes based on Optimized Typography for 70 CPL in a 600px-wide Setting
+  Golden Ratio Typography Calculator
+  https://pearsonified.com/typography/
+*/
+@media all and (max-width: 959px) and (min-width: 600px) {
+	$baseline: 2.7rem;
+	.container {
+		grid-gap: 0.5rem 0.5rem;
+	}
+	body {
+		/* Primary text: 19px; */
+		font-size: 1.3rem;
+		line-height: $baseline;
+
+	}
+	header p {
+		padding: 0rem;
+		margin: .25*$baseline 0 0 0;
+	}
+	h1 {
+		/* 50 pixels */
+		font-size: 3.4rem;
+		line-height: 2*$baseline;
+	}
+	h2 {
+		/* 45 pixels */
+		font-size: 2.1rem;
+		line-height: 1.5*$baseline;
+		padding: 0 0 .5*$baseline 0;
+	}
+	h3, h4, h5, h6 {
+		/* 36 pixels */
+		font-size: 1.7rem;
+		line-height: $baseline;
+	}
+	.smalltext {
+		/* 22 pixels */
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+	.container-sidebar {
+		display: grid;
+		grid-gap: 10rem 5rem;
+		grid-template-columns: 3fr 1fr;
+		grid-template-areas:
+			"header header"
+			"main show-description"
+			"main show-subscription"
+			"footer footer";
+		max-width: 75rem;
+		margin: 0 auto 0 auto;
+	}
+	.overcast-button, .rss-button, .apple-podcasts-button {
+		height: 30px;
+		width: 83px;
+	}
+}
+
+/*
+  Base font sizes based on Optimized Typography for 14px Font in 320px-wide Setting
+  Golden Ratio Typography Calculator
+  https://pearsonified.com/typography/
+*/
+@media all and (max-width: 599px) and (min-width: 320px) {
+	$baseline: 2.1rem;
+	body {
+		/* Primary text: 14px; */
+		font-size: 1.3rem;
+		line-height: $baseline;
+
+	}
+	.container {
+		grid-gap: 0.5rem 0.5rem;
+	}
+	header {
+		margin: 1rem auto 2rem auto;
+		grid-template-columns: 12rem 1fr;
+		grid-gap: 0.5rem 2rem;
+		height: 12rem;
+	}
+	header p {
+		padding: 0rem;
+		margin: .25*$baseline 0 0 0;
+	}
+	h1 {
+		/* 37 pixels */
+		font-size: 3.4rem;
+		line-height: 2*$baseline;
+	}
+	h2 {
+		/* 23 pixels */
+		font-size: 2.1rem;
+		line-height: 1.5*$baseline;
+		padding: 0 0 .5*$baseline 0;
+	}
+	h3, h4, h5, h6 {
+		/* 18 pixels */
+		font-size: 1.7rem;
+		line-height: $baseline;
+	}
+	.smalltext {
+		/* 22 pixels */
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+	.podcast-preview {
+		height: 13rem;
+		width: 13rem;
+	}
+	.podcast-artwork img {
+		height: 125px;
+		width: 125px;
+	}
+	.podcast-grid {
+		grid-template-columns: 14rem 1fr;
+		grid-auto-rows: minmax(14rem, auto);
+		margin: 0rem auto 0rem auto;
+		grid-gap: 1rem;
+	}
+	#header-image img {
+		height: 115px;
+		width: 115px;
+	}
+	.container-sidebar {
+		display: grid;
+		grid-gap: 0.5rem 0.5rem;
+		grid-template-columns: 3fr 1fr;
+		grid-template-areas:
+			"header header"
+			"show-subscription show-subscription"
+			"main main"
+			"show-description show-description"
+			"footer footer";
+		margin: 0 auto 0 auto;
+	}
+	#sidebar-subscription > p {
+		display: inline;
+	}
+	.overcast-button, .rss-button, .apple-podcasts-button {
+		height: 30px;
+		width: 83px;
+	}
+}

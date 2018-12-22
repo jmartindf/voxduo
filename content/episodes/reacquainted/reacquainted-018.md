@@ -1,0 +1,39 @@
+Title: 18: International Slideshow
+Slug: 18
+Date: 2017-10-10 06:00:00
+Author: Vox Duo
+Category: Reacquainted
+Podcast: https://files.voxduo.com/reacquainted/reacquainted018.mp3
+Length: 52635853
+Duration: 1:49:07
+Episode: 18
+Show: Reacquainted
+EpTitle: International Slideshow
+TweetText: Adam drones on about his world trip. Joe leads the snoring section for the Vox Populi.
+Description: It’s our final episode! If you want to be able to brag to your friends that you’ve listened to our whole series, though, you’re going to have to complete a special Vox Populi endurance test! Steel yourself for the soporific saga of Adam’s nine-month trek across the world, from the R.O.K. to the U.S. of A. You will not believe how long it can take one man to find himself.
+EpisodeLink: https://voxduo.com/reacquainted/18
+guid: 58b349d886e6c04706d65977:58b34a3e1e5b6c82805c74e7:59dbf2129f8dceedaf2b2731
+
+It’s our final episode! If you want to be able to brag to your friends that you’ve listened to our whole series, though, you’re going to have to complete a special Vox Populi endurance test! Steel yourself for the soporific saga of Adam’s nine-month trek across the world, from the R.O.K. to the U.S. of A. You will not believe how long it can take one man to find himself.
+
+1. One Of Our Shorter Episodes
+2. A Real Quick Overview
+3. Japan
+4. New Zealand
+5. Australia
+6. Singapore / Malaysia / Laos
+7. Thailand / Laos / Cambodia / Vietnam
+8. China
+9. Mongolia
+10. Russia
+11. Germany
+12. Holland
+13. Belgium
+14. France
+15. Serbia / Greece
+16. Italy
+17. Spain
+18. Cargo Ship
+19. Remembering It All
+20. Closing
+21. Our Last Planned Episode

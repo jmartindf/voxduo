@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:website="http://ogp.me/ns/website" lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+	{% block head %}
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+	<link rel="stylesheet" href="{{ SITEURL }}/theme/styles.css" type="text/css" media="screen" />
+    {% if PODCAST_FEED_PATH and not category and not article %}
+    <link href="{{ FEED_DOMAIN }}/{{ PODCAST_FEED_PATH }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Master Podcast Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS and not category and not article %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+    {% if FEED_RSS and not category and not article %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+    {% if category %}
+    <link href="{{ FEED_DOMAIN }}/{{ category.slug }}.rss" type="application/rss+xml" rel="alternate" title="{{ category.name }} Podcast Feed" />
+    {% elif article %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+
+    {% block opengraph %}
+    <meta property="og:site_name" content="{{ SITENAME }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="description" content="" />
+    <meta name="twitter:site" content="@FromVoxDuo" />
+
+    {% if article %}
+    <meta property="og:title" content="{{ article.title }}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="{{ SITEURL }}/theme/media/{{ article.category.logo }}" />
+    <meta property="og:description" content="{{ article.description }}" />
+    <meta itemprop="name" content="{{ article.title }}" />    
+    <meta itemprop="url" content="{{ SITEURL }}/{{ article.url }}" />
+    <meta itemprop="description" content="{{ article.description }}" />
+
+    {% elif category %}
+    <meta property="og:title" content="{{ category.name }} Episodes" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ category.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ SITEURL }}/theme/media/{{ category.logo }}" />
+    <meta itemprop="name" content="{{ category.name }} Episodes" />    
+    <meta itemprop="url" content="{{ SITEURL }}/{{ category.url }}" />
+
+    {% else %}
+    <meta property="og:title" content="Episodes" />
+    <meta property="og:url" content="{{ SITEURL }}" />
+    <meta property="og:type" content="website" />
+    <meta itemprop="name" content="Episodes" />    
+    <meta itemprop="url" content="{{ SITEURL }}" />
+    {% endif %}
+    {% endblock opengraph %}
+	{%endblock head %}
+</head>
+
+{% block bodytag %}
+<body class="container">
+{% endblock bodytag %}
+
+<header>
+	<div id="header-image">
+		<a href="{{ SITEURL }}" alt="Vox Duo"><img src="{{ SITEURL }}/theme/media/Site%20Logo.png" alt="Two crossed microphones" /></a>
+	</div>
+	<div id="header-title">	<!-- Exists to vertically center text next to the logo -->
+		<p>{{ SITE_DESCRIPTION }}</p>
+	</div>
+</header>
+
+{% block content %}
+{% endblock content %}
+
+<footer>
+	<a href="{{ TWITTER_URL }}">Twitter</a>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{% if DEFAULT_PAGINATION %}
+<div class="pager">
+    {% if articles_page.has_previous() %}
+        {% set num = articles_page.previous_page_number() %}
+        {% if page_name == 'index' %}
+            {% if num <= 1 %}
+            <a href="{{ SITEURL }}">&larr; Newer</a>
+            {% elif num > 1 %}
+            <a href="{{ SITEURL }}/page/{{ num }}">&larr; Newer</a>
+            {% endif %}
+        {% else %}
+            {% if num <= 1 %}
+            <a href="{{ SITEURL }}/{{ page_name }}">&larr; Newer</a>
+            {% elif num > 1 %}
+            <a href="{{ SITEURL }}/{{ page_name }}/page/{{ num }}">&larr; Newer</a>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+    {% if articles_page.has_previous() and articles_page.has_next() %}
+        &bull;
+    {% endif %}
+    {% if articles_page.has_next() %}
+        {% if page_name == 'index' %}
+            <a href="{{ SITEURL }}/page/{{ articles_page.next_page_number() }}">Older &rarr;</a>
+        {% else %}
+            <a href="{{ SITEURL }}/{{ page_name }}/page/{{ articles_page.next_page_number() }}">Older &rarr;</a>
+        {% endif %}
+    {% endif %}
+</div>
+{% endif %}
