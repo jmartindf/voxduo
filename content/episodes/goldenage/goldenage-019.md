@@ -1,4 +1,4 @@
-Title: 19: Christmas Special
+Title: 19: The Soundtrack To Your Christmas Morning
 Slug: 19
 Date: 2018-12-20
 Author: Vox Duo
@@ -8,11 +8,13 @@ Length: 28748890
 Duration: 57:55
 Episode: 19
 Show: The Golden Age
-EpTitle: Christmas Special
-TweetText: Awaiting Adam's professional approach.
-Description: Awaiting Adam's professional approach.
+EpTitle: The Soundtrack To Your Christmas Morning
+TweetText: Not a dream! Not a hoax! Adam ‘n’ Joe are BACK, and with a special Christmas gift to you and yours: a heavily researched year-end rundown of 2018's best #movies, #books, and #TV!
+Description: Not a dream! Not a hoax! Adam ‘n’ Joe are BACK, and with a special Christmas gift to you and yours: a heavily researched year-end rundown of 2018's best movies, books, and TV!
 EpisodeLink: https://voxduo.com/goldenage/19
 
 
 
-Awaiting Adam's professional approach.
+THIS IS IT: after a solid year of continuous, well-regarded content that has propelled them into the highest ranks of your favorite podcast platforms, Adam 'n' Joe are ready to finish off 2018 with their selections for its best books, movies, and television!
+
+Did your favorites make their "Best Of" lists? Did Adam or Joe even hear about them? There's only one way to find out — and thanks to the Vox Duo's newfound discipline with regard to their show's recording length, it's not even time-intensive!
