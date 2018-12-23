@@ -1,6 +1,6 @@
 Title: 19: The Soundtrack To Your Christmas Morning
 Slug: 19
-Date: 2018-12-20
+Date: 2018-12-25 06:00:00
 Author: Vox Duo
 Category: The Golden Age
 Podcast: https://files.voxduo.com/goldenage/goldenage019.mp3
