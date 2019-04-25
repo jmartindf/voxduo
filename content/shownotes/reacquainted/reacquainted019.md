@@ -1,4 +1,1 @@
-
-
-
-
+Wisconsin. What's it good for, other than freezing cold, oppressive humidity, and pestilential clouds of mosquitos? Nothing, really. That's why Joe's contemplating making his boldest move yet -- the move to Tucson.
